@@ -1,0 +1,7 @@
+__pycache__/ # Ignore Python cache directories
+*.py[cod] # Ignore compiled Python files
+*.ipynb_checkpoints # Ignore Jupyter Notebook checkpoints
+.env # Ignore virtual environments 
+*.env
+# capstoneData/*.zip # Ignore the raw data directory
+# cleanedData/*.zip # Ignore the cleaned data directory
