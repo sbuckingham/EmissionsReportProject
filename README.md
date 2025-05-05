@@ -4,25 +4,25 @@
 
 This project investigates global emissions inequality using data from the Stockholm Environment Institute (SEI) Emissions Inequality Dashboard. We explore the distribution of carbon emissions across income groups, time, and geographies. Our goal is to understand how climate responsibility is shared—and often unequally—across countries and socioeconomic strata.
 
-## Repository Structure
-EmissionsReportProject/
-    ├── .gitignore
-    ├── README.md
-    ├── requirements.txt
-    ├── Emissions Report.ipynb
-    ├── capstoneData/
-    │   └── ...
-    ├── cleanedData/
-    │   └── ...
-    ├── Dockerfile
-
+## Repository Structure   
+EmissionsReportProject/   
+    ├── .gitignore   
+    ├── README.md   
+    ├── requirements.txt   
+    ├── Emissions Report.ipynb   
+    ├── capstoneData/   
+    │   └── ...   
+    ├── cleanedData/   
+    │   └── ...   
+    ├── Dockerfile   
+   
 ## Features & Analysis
 
 - Population and emissions shares by income group over time
 - Total and cumulative CO₂ emissions (GtCO₂)
 - Theil inequality indices: within- and between-country emissions
 - Interactive visualizations (via `ipywidgets` and `matplotlib`)
-- Data integration from multiple sources and scenarios
+- Plots with historical events contextualized
 
 ## Reproducibility
 
@@ -48,10 +48,11 @@ jupyter notebook
 ```
 
 ## Data Sources
-- SEI Emissions Inequality Dashboard: Cleaned and formatted data included in /cleanedData
+- SEI Emissions Inequality Dashboard: https://www.sei.org/tools/emissions-inequality-dashboard/   
+    - Cleaned and formatted data included in /cleanedData
 
 ## Requirements
-Python 3.10 or later. See requirements.txt for package list.
+Python 3.12.8. See requirements.txt for package list.
 
 ## Author
 Sarah [@sbuckingham]
